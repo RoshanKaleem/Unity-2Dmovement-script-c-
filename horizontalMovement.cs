@@ -35,7 +35,7 @@ public class horizontalMovement : MonoBehaviour
         }
         else if (h < 0)
         {
-
+          //going to left side
             temp.x -= speed * Time.deltaTime;
 
 
